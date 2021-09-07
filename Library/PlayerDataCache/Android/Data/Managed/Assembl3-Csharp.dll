@@ -1,0 +1,14 @@
+#include<iostream>
+#include<string.h>?
+#incldue<algorithms>
+#include<stdlib>
+using namespace std;
+
+
+int main(){
+	int it;
+	cin >> it;
+	while(it--){
+		solve();
+		}
+	return 0;
