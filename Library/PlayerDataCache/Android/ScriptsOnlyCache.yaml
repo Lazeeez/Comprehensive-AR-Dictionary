@@ -1,0 +1,1204 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ARFeatheredPlaneMeshVisualizer
+    - AnchorCreator
+    - Vuforia.BackgroundPlaneBehaviour
+    - Vuforia.DatabaseLoadBehaviour
+    - Vuforia.DefaultInitializationErrorHandler
+    - Vuforia.DefaultTrackableEventHandler
+    - Vuforia.DeviceTrackerBehaviour
+    - Vuforia.DigitalEyewearBehaviour
+    - Vuforia.HideExcessAreaBehaviour
+    - Vuforia.KeepAliveBehaviour
+    - Vuforia.SmartTerrainTrackerBehaviour
+    - Vuforia.TextRecoBehaviour
+    - Vuforia.TurnOffWordBehaviour
+    - Vuforia.VideoBackgroundBehaviour
+    - Vuforia.VideoBackgroundManager
+    - Vuforia.VuforiaBehaviour
+    - Vuforia.WebCamBehaviour
+    - Vuforia.WordBehaviour
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.ARCore.Editor.dll:
+    - UnityEditor.XR.ARCore.ARCoreSettings
+    Unity.XR.ARFoundation.dll:
+    - UnityEngine.XR.ARFoundation.ARAnchorManager
+    - UnityEngine.XR.ARFoundation.ARCameraBackground
+    - UnityEngine.XR.ARFoundation.ARCameraManager
+    - UnityEngine.XR.ARFoundation.ARInputManager
+    - UnityEngine.XR.ARFoundation.ARPlane
+    - UnityEngine.XR.ARFoundation.ARPlaneManager
+    - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
+    - UnityEngine.XR.ARFoundation.ARSession
+    - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    Unity.XR.ARKit.Editor.dll:
+    - UnityEditor.XR.ARKit.ARKitSettings
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.WindowsMixedReality.Editor.dll:
+    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.XR.MagicLeap.dll:
+    - UnityEngine.XR.MagicLeap.MagicLeapSettings
+  sceneClasses:
+    Assets/ExampleAssets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1680}
+    - Class: 114
+      Script: {instanceID: 1736}
+    - Class: 114
+      Script: {instanceID: 1762}
+    - Class: 114
+      Script: {instanceID: 1780}
+    - Class: 114
+      Script: {instanceID: 1814}
+    - Class: 114
+      Script: {instanceID: 2202}
+    - Class: 114
+      Script: {instanceID: 2224}
+    - Class: 114
+      Script: {instanceID: 2234}
+    - Class: 114
+      Script: {instanceID: 2568}
+    - Class: 114
+      Script: {instanceID: 2608}
+    - Class: 114
+      Script: {instanceID: 2648}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3582}
+    - Class: 114
+      Script: {instanceID: 3588}
+    - Class: 114
+      Script: {instanceID: 3802}
+    - Class: 114
+      Script: {instanceID: 4040}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4128}
+    - Class: 114
+      Script: {instanceID: 4280}
+    - Class: 114
+      Script: {instanceID: 4344}
+    - Class: 114
+      Script: {instanceID: 4452}
+    - Class: 114
+      Script: {instanceID: 4960}
+    - Class: 114
+      Script: {instanceID: 4964}
+    - Class: 114
+      Script: {instanceID: 5030}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5282}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: e8733e39efa851172df1c9eaef062265
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlane
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f64f112de5d2affaf32b7b5717241cf7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8da6dedef4fd7612f032173b044f8022
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: TextRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DefaultInitializationErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DefaultTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 082126d032cc22804037f26289a7068a
+    assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
+    namespaceName: 
+    className: SceneObjectGUIDComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: DistortionRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapLoader
+  - hash:
+      serializedVersion: 2
+      Hash: c4114841b51f0f1fda801a9cb7926690
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: BackgroundPlaneBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: WireframeTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: TurnOffWordBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 628dd7649cfdba9e95746a2507bd291a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DigitalEyewearBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f6a831aeae4d5775bf9e9880467bf6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: ReconstructionBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 524a8f7c9b60f50a1c6bbe7185c0207e
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBodyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: dc1bf7169b005112f7a4da5a6b15f0c4
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitReferenceObjectEntry
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6303c7164a38e06044ec2036c18b6b
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: HideExcessAreaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9ab74e15bfa150e57bd32caa0940cf1a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: c0067977eddd2e61d575d7a1931dbedf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: WordBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9797c368ac4e5c7468b6c62eb9ac2473
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: PropBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 750cc4178ad07e7a593bb5184bbd10b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 37a13922678947e6d144f41a7195154a
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 656a9bd3043af1c7282ba13bd86619f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: SmartTerrainTrackerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFace
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: ComponentFactoryStarterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
+    namespaceName: Unity.InteractiveTutorials
+    className: CollisionBroadcaster3D
+  - hash:
+      serializedVersion: 2
+      Hash: 3aab243b3d236413bf7a441275c2d8fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: WebCamBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
+    namespaceName: Unity.InteractiveTutorials
+    className: CollisionBroadcaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0c5108545fb925730d4d5887ebcdd20c
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceObjectLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: GLErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: fc9fbe84dfc8979993a99d11baf2a29b
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRBuildSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 1268406d3f2e4b2c2b670b560b6db769
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: de8c2a257a183731115d08b34b7bd746
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AROcclusionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: e6ae44c9f26619a4901e584879ddc6fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DefaultSmartTerrainEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 16dacd04869a876ea4bea0d1d2e77e34
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudManager
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: fec7dfb935d2708506ec2b6c6ade6184
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: AREnvironmentProbe
+  - hash:
+      serializedVersion: 2
+      Hash: 1edd42b22a74fa8c88c1272f35b4684b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: cbe6deff75fc0987595a61e9510f7917
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARCameraBackground
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9b53318825332126b0fd6da2d962fb
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: a9929eb283202738e8ec9a2be9d18701
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa9f1030164f334ee65e118172f3e58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: UserDefinedTargetBuildingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImage
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9b53318825332126b0fd6da2d962fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnchorCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: b4e598a25c0654fd75ea3ae5c71b3d89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: MarkerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
+    namespaceName: Unity.InteractiveTutorials
+    className: SelectionRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5c55cb7b3151ce240452eb85500d32
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 625e4fd6f88b90d1ee9e7c089c3f450d
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSession
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a8e431cd22067175e40e9a215394b9b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARBackgroundRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: cdff81db08644c9fce9bd3f61576c5da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DeviceTrackerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: ReconstructionFromTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARKit.dll
+    namespaceName: UnityEngine.XR.ARKit
+    className: ARKitLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 3bfdd2b07bbd77314ed3b2a142269ad9
+    assemblyName: Unity.XR.WindowsMixedReality.dll
+    namespaceName: UnityEngine.XR.WindowsMR
+    className: WindowsMRGestures
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 76b7e183d9d3382d8f2b9ae1c01d0aa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARFeatheredPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARCore.dll
+    namespaceName: UnityEngine.XR.ARCore
+    className: ARCoreLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 2ad05b52017570bc815b7758a4e8ca97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: ObjectTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 57f71a933090347136e507657f41cb48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundManager
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: e1c35cdce946e9da77fe80a39c261608
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARSessionOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: WireframeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycast
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARHumanBody
+  - hash:
+      serializedVersion: 2
+      Hash: ef705ae677d649d6c0ff3b4060963abd
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedObjectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloudParticleVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6892175cf1b4b3aae4897fbabf078d
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MLSpatialMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 01473135d671a71d740e507b04eb93da
+    assemblyName: Unity.XR.ARSubsystems.dll
+    namespaceName: UnityEngine.XR.ARSubsystems
+    className: XRReferenceImageLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: a832071a4388f4441f25608d5867eeb8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRIntegrationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc03a501323d00d0037a6b76d25a3ba
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARMeshManager
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARParticipant
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPlaneMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 7498aefc4710850a9db277b819b3f744
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: DatabaseLoadBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 479fb1a82a3de0bd365ddced5010945a
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 26dbd10372b15f8dc79d326dcf2e52ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: d39905ff8fda75afed4d688761c322e1
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: c1aa24dc179be0cb7c6d49f66fc0db8a
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARRaycastManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa285c8bc09121794e9fdc0a46d608f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: SurfaceBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0535c7e7c34dd1cdfc5b1f8ffce1aebe
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARTrackedImageManager
+  - hash:
+      serializedVersion: 2
+      Hash: 83416c2f4423f78ae21db484905b553a
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap.Rendering
+    className: MagicLeapCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 290afc8da8e459e0b8dc7444bfaf5e35
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARPointCloud
+  - hash:
+      serializedVersion: 2
+      Hash: 1cd7de7521dc2fdca0e4ea3e13c1c8d9
+    assemblyName: UnityEngine.XR.MagicLeap.dll
+    namespaceName: UnityEngine.XR.MagicLeap
+    className: MagicLeapGestures
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.ARFoundation.dll
+    namespaceName: UnityEngine.XR.ARFoundation
+    className: ARFaceMeshVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 53c0e158c23d33e0ae5115564e97d4b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Vuforia
+    className: KeepAliveBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  platform: 13
+  scenePathNames:
+  - Assets/ExampleAssets/Scenes/SampleScene.unity
+  playerPath: C:/Users/Lazeeez/Desktop/CPY2.apk
